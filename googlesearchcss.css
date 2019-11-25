@@ -1,0 +1,145 @@
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation*/
+#header
+{
+    position: relative;
+    width: 100%;
+    top: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+#tabs
+{
+  position: relative;
+  width: 60%;
+  padding: 0px;
+  margin: 0;
+  padding-left: 150px;
+}
+#selector
+{
+  position: relative;
+  width: 100%;
+  margin 0;
+  padding: 0;
+  border-bottom:1px solid #c6c6c6;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 12px;
+}
+li{
+  float: left;
+}
+li a
+{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: grey;
+}
+li a:hover
+{
+  text-decoration: underline;
+}
+#signin
+{
+  background-color: rgb(67,135,253);
+  border-radius: 4px;
+  width: 80px;
+  text-align: center;
+}
+#signin a
+{
+  color: white;
+}
+#searchbar
+{
+  position: relative;
+  display: block;
+  width: 550px;
+  height: 40px;
+  border-radius: 25px;  
+  border: 1px solid #c6c6c6;
+  padding-left: 30px;
+}
+.right
+{
+    float: right;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+/*Results*/
+h1{
+  font-size: 18px;
+  color: blue;
+}
+h2{
+  font-size: 16px;
+  color: green;
+}
+p
+{
+  font-size: 16px;
+}
+#results
+{
+  position: relative;
+  width: 60%;
+  margin-left: 160px;
+  font-size: 14px;
+  color: gray;
+}
+.pages
+{
+  position: relative;
+  width: 60%;
+  margin: 30px;
+  padding: 0;
+  margin-left: 160px;
+}
+#related
+{
+  position: relative;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  padding-left: 150px;
+}
+#related ul
+{
+  columns: 2;
+}
+#related ul a
+{
+  color: blue;
+  font-size: 14px;
+}
+#location
+{
+  position: relative;
+  border: 1px solid rgb(0,0,0,0.1);
+  width: 100%;
+  background-color: rgb(0,0, 0, 0.054);
+  text-align: left;
+  padding-left: 160px;
+}
+#footer
+{
+  position: relative;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 160px;
+  overflow: hidden;
+  font-size: 12px;
+  border: 1px solid rgb(0,0,0,0.1);
+  background-color: rgb(0,0,0, 0.054);
+}
